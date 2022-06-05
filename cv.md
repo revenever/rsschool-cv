@@ -2,7 +2,7 @@
 ![](/images/ph2.jpg)
 ## Front-end developer
 ## Contacts:
-- **E-mail:**vinokurov.iv.al@gmail.com
+- **E-mail:** vinokurov.iv.al@gmail.com
 - **Telegram:**@reveneverus
 - [LinkedIn](https://www.linkedin.com/in/ivan-vinokurov-5b489a233/)
 ## About me
