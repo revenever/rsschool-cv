@@ -12,10 +12,15 @@ justify-content: space-between;
 }
 header {
     border: 1px solid blue;
+
 }
 main {
     border: 1px solid green;
 }
- footer {
+footer {
     border: 1px solid mediumpurple;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }

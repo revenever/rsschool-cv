@@ -1,1 +1,1 @@
-https://revenever.github.io/rsschool-cv/
+# https://revenever.github.io/rsschool-cv/
