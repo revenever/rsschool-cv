@@ -24,3 +24,19 @@ footer {
     max-width: 1440px;
     margin: 0 auto;
 }
+.nav-list {
+    display: flex;
+    flex: 1 0 content;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color:midnightblue;
+    text-decoration: none;
+}
+.nav-link {
+    padding: 0 60px;
+    line-height: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
