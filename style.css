@@ -48,12 +48,16 @@ html {
 .nav-link:hover{
     color:rgb(146, 189, 29);
 }
-.nav-link:focus{
+/*.nav-link:focus{
     color:rgb(189, 34, 29);
     font-weight: 700;
-}
+}*/
 .def-list{
     font-style:italic;
     font-weight: 400;
     color: darkcyan;
+}
+.section{
+    list-style: none;
+    margin-left: 30px;
 }
