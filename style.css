@@ -50,4 +50,10 @@ html {
 }
 .nav-link:focus{
     color:rgb(189, 34, 29);
+    font-weight: 700;
+}
+.def-list{
+    font-style:italic;
+    font-weight: 400;
+    color: darkcyan;
 }
