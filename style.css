@@ -41,6 +41,7 @@ footer {
     font-weight: 500;
     color:midnightblue;
     transition: .2s;
+    white-space: nowrap;
     
 }
 html {
@@ -61,5 +62,8 @@ html {
 }
 .section{
     list-style: none;
-    margin-left: 30px;
+    margin-left: 100px;
+}
+p{
+    max-width: 720px;
 }
