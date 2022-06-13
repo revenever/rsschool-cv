@@ -32,6 +32,7 @@ footer {
     align-items: center;
     list-style: none;
     
+    
 }
 .nav-link {
     padding: 0 60px;
@@ -56,6 +57,7 @@ html {
     font-style:italic;
     font-weight: 400;
     color: darkcyan;
+    list-style: none;
 }
 .section{
     list-style: none;
