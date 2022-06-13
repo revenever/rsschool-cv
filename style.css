@@ -1,5 +1,9 @@
 body {
 font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #24252B;
+font-weight: 350;
 min-height: 100vh;
 margin: 0;
 padding: 0;
@@ -11,15 +15,16 @@ justify-content: space-between;
     box-sizing: border-box;
 }
 header {
-    border: 1px solid blue;
+    border: 1px solid #24252B;
+    background-color: #77A6A1;
 
 }
 main {
-    border: 1px solid green;
-    font-weight: 300;
+    background-color: #D9D0C7;
 }
 footer {
-    border: 1px solid mediumpurple;
+    border: 1px solid #24252B;
+    background-color: #77A6A1;
 }
 .container {
     max-width: 1440px;
@@ -39,7 +44,8 @@ footer {
     line-height: 10px;
     text-decoration: none;
     font-weight: 500;
-    color:midnightblue;
+    font-size: 18px;
+    color:#2C2E35;
     transition: .2s;
     white-space: nowrap;
     
@@ -47,20 +53,20 @@ footer {
 html {
     scroll-behavior: smooth;
 }
-.nav-link:hover{
-    color:rgb(146, 189, 29);
+.nav-link:hover {
+    color: whitesmoke;
 }
-/*.nav-link:focus{
+/*.nav-link:focus {
     color:rgb(189, 34, 29);
     font-weight: 700;
 }*/
-.def-list{
+.def-list {
     font-style:italic;
     font-weight: 400;
     color: darkcyan;
     list-style: none;
 }
-.section{
+.section {
     list-style: none;
     width: 50%;
     height: fit-content;
@@ -69,7 +75,7 @@ html {
 p{
     max-width: 80%;
 }
-.main-container{
+.main-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -80,8 +86,36 @@ p{
         width: 100%;
     }
 }
-@media (max-width: 1440px){
+@media (max-width: 1440px) {
     .container {
         padding: 0 20px;
     }
+}
+.section-title {
+    color: #293948;
+}
+a.def-list:hover {
+    color:black
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 500;
+    color:#2C2E35;
+    transition: .2s;
+    font-size: 18px;
+}
+.rsslogo {
+height: 100px;
+width: 150px;
+}
+.githublink {
+    text-decoration: none;
+    color:#2C2E35;
+    transition: .2s;
+}
+.githublink:hover {
+    color: whitesmoke;
 }
