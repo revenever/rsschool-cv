@@ -1,0 +1,121 @@
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #24252B;
+font-weight: 350;
+min-height: 100vh;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    border: 1px solid #24252B;
+    background-color: #77A6A1;
+
+}
+main {
+    background-color: #D9D0C7;
+}
+footer {
+    border: 1px solid #24252B;
+    background-color: #77A6A1;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    flex: 1 0 content;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+    
+}
+.nav-link {
+    padding: 0 60px;
+    line-height: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color:#2C2E35;
+    transition: .2s;
+    white-space: nowrap;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav-link:hover {
+    color: whitesmoke;
+}
+/*.nav-link:focus {
+    color:rgb(189, 34, 29);
+    font-weight: 700;
+}*/
+.def-list {
+    font-style:italic;
+    font-weight: 400;
+    color: darkcyan;
+    list-style: none;
+}
+.section {
+    list-style: none;
+    width: 50%;
+    height: fit-content;
+    justify-content: center;
+}
+p{
+    max-width: 80%;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+.section-title {
+    color: #293948;
+}
+a.def-list:hover {
+    color:black
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 500;
+    color:#2C2E35;
+    transition: .2s;
+    font-size: 18px;
+}
+.rsslogo {
+height: 100px;
+width: 150px;
+}
+.githublink {
+    text-decoration: none;
+    color:#2C2E35;
+    transition: .2s;
+}
+.githublink:hover {
+    color: whitesmoke;
+}
