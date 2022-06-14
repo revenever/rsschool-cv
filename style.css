@@ -67,7 +67,7 @@ html {
     list-style: none;
 }
 .section {
-    list-style: none;
+    /*list-style: none;*/
     width: 50%;
     height: fit-content;
     justify-content: center;
